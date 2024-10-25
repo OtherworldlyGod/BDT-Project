@@ -1,0 +1,136 @@
+/* General Styling */
+.visualization-container {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f5f7; /* Lighten the background for better contrast */
+  color: #333;
+  padding: 0 20px;
+  padding-top: 100px;
+}
+
+/* Chart Section Styling */
+.chart-section {
+  text-align: center;
+  margin: 60px 0;
+  padding: 20px;
+  background-color: #ffffff; /* White background for clarity */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
+  border-radius: 8px;
+}
+
+.chart-section h2 {
+  font-size: 1.8em;
+  color: #004d40;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.chart-section canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00332e;
+  padding: 15px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #00796b;
+  color: #e0f2f1;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #00332e;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.footer a {
+  color: #80cbc4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-section {
+  max-width: 300px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #00796b;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #b2dfdb;
+}
